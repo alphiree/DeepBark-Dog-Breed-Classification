@@ -4,7 +4,7 @@ from deeplearning_functions import *
 model = load_model('saved-models\\mobilenetV2.h5')
 
 print('')
-print('Dog Breeds Classification by: Alphire :)')
+print('DeepBark: Dog Breed Classification by: Alphire :)')
 print('')
 # Get input string from user
 input_string = input("Enter the file path: ")
