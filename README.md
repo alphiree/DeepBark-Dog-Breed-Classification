@@ -27,7 +27,7 @@ python DeepBark.py
 
 3. Input the path of the image of the dog you want to be classified.
     
-4. The results will be shown with the score on how confident the DeepBark are with its classification.
+4. The results will be shown with the score on how confident the DeepBark is with its classification.
     
 
 Example Result:
