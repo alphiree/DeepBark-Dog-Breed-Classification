@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tensorflow = "*"
+pandas = "*"
+numpy = "*"
+split-folders = "*"
+matplotlib = "*"
+seaborn = "*"
+opencv-python = "*"
+scipy = "*"
+keras-vggface = "*"
+keras-applications = "*"
+pylint = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
