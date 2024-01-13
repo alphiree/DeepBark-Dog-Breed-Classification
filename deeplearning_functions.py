@@ -1,6 +1,6 @@
-    """Contains the functions used in the main script.
+"""Contains the functions used in the main script.
 
-    """
+"""
 
 import os
 
