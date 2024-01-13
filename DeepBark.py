@@ -27,11 +27,12 @@ new_string = new_string.replace('"', "")
 image_read = read_image(new_string)
 
 
-multiclass_predict_from_image_with_comparison(
-    model,
-    image=image_read,
-    image_size=(224, 224),
-    class_names=Config.class_names,
-    comparison_path="train",
-    picture_title="Dog Breed Classification",
-)
+if __name__ == "__main__":
+    multiclass_predict_from_image_with_comparison(
+        model,
+        image=image_read,
+        image_size=(224, 224),
+        class_names=Config.class_names,
+        comparison_path="train",
+        picture_title="Dog Breed Classification",
+    )
