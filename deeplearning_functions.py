@@ -1,3 +1,7 @@
+    """Contains the functions used in the main script.
+
+    """
+
 import os
 
 import cv2
