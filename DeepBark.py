@@ -1,3 +1,5 @@
+"""Main Script for DeepBark Dog Breed Classification"""
+
 import os
 
 from keras.models import load_model
