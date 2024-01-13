@@ -5,10 +5,7 @@ import os
 from keras.models import load_model
 
 from config.base import Config
-from deeplearning_functions import (
-    multiclass_predict_from_image_with_comparison,
-    read_image,
-)
+from utils.prediction import multiclass_predict_from_image_with_comparison, read_image
 
 model = load_model(
     os.path.join(f"{os.getcwd()}", f"{Config.model_folder}", "mobilenetV2.h5")

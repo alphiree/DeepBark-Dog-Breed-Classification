@@ -1,7 +1,7 @@
 """Contains the functions used in the main script.
 
 """
-
+# pylint: disable=E1101 (no-member)
 import os
 
 import cv2
@@ -77,7 +77,7 @@ def multiclass_predict_from_image_with_comparison(
     final_image = cv2.cvtColor(vertical_attachment, cv2.COLOR_BGR2RGB)
 
     ## Plotting it
-    fig, axes = plt.subplots(
+    fig, axes = plt.subplots(  # pylint: disable=W0612
         1,  ## Number of columns
         2,  ## Number of rows
         figsize=(12, 6),  ## Figure Size
