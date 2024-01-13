@@ -20,7 +20,7 @@ git clone https://github.com/alphiree/DeepBark-Dog-Breed-Classification.git
 2. Run the script from your choice of IDEs or the terminal itself. You can run the script in the terminal by:
 
 ```
-python DeepBark.py
+python deepbark.py
 ```
 
 > Note: Make sure you already have all the dependencies installed. The required packages can be seen in _deeplearning_functions.py_
